@@ -38,6 +38,7 @@ public class baseclass {
 		public static WebDriverWait wait;
 		public static Logger log = Logger.getLogger("devpinoyLogger");
 		
+		//just demo
 	
 	@BeforeSuite
 	 public void BeforeSuite() {
