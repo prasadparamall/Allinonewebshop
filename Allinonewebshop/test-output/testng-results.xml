@@ -2,44 +2,48 @@
 <testng-results ignored="27" total="44" passed="17" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-22T00:23:24 IST" name="Suite" finished-at="2021-10-22T00:24:03 IST" duration-ms="39799">
+  <suite started-at="2021-10-30T18:50:28 IST" name="Suite" finished-at="2021-10-30T18:51:30 IST" duration-ms="62044">
     <groups>
     </groups>
-    <test started-at="2021-10-22T00:23:24 IST" name="login" finished-at="2021-10-22T00:23:36 IST" duration-ms="12364">
+    <test started-at="2021-10-30T18:50:28 IST" name="login" finished-at="2021-10-30T18:50:57 IST" duration-ms="28840">
       <class name="testcases.LoginPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginPage@723ca036]" started-at="2021-10-22T00:23:24 IST" name="setup" finished-at="2021-10-22T00:23:31 IST" duration-ms="7468" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginPage@723ca036]" started-at="2021-10-30T18:50:28 IST" name="setup" finished-at="2021-10-30T18:50:52 IST" duration-ms="23434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Login()[pri:1, instance:testcases.LoginPage@723ca036]" started-at="2021-10-22T00:23:31 IST" name="Login" finished-at="2021-10-22T00:23:32 IST" duration-ms="595" status="PASS">
+        <test-method signature="Login()[pri:1, instance:testcases.LoginPage@723ca036]" started-at="2021-10-30T18:50:52 IST" name="Login" finished-at="2021-10-30T18:50:52 IST" duration-ms="769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginPage@723ca036]" started-at="2021-10-22T00:23:32 IST" name="setup" finished-at="2021-10-22T00:23:32 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginPage@723ca036]" started-at="2021-10-30T18:50:52 IST" name="setup" finished-at="2021-10-30T18:50:52 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="EnterValidCredentials()[pri:2, instance:testcases.LoginPage@723ca036]" started-at="2021-10-22T00:23:32 IST" name="EnterValidCredentials" finished-at="2021-10-22T00:23:36 IST" duration-ms="4221" status="PASS">
+        <test-method signature="EnterValidCredentials()[pri:2, instance:testcases.LoginPage@723ca036]" started-at="2021-10-30T18:50:52 IST" name="EnterValidCredentials" finished-at="2021-10-30T18:50:57 IST" duration-ms="4531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterValidCredentials -->
       </class> <!-- testcases.LoginPage -->
     </test> <!-- login -->
-    <test started-at="2021-10-22T00:23:36 IST" name="clearshoppingcart" finished-at="2021-10-22T00:23:40 IST" duration-ms="4011">
+    <test started-at="2021-10-30T18:50:57 IST" name="clearshoppingcart" finished-at="2021-10-30T18:51:02 IST" duration-ms="4343">
       <class name="testcases.ClearShoppingCart">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ClearShoppingCart@4b8d604b]" started-at="2021-10-22T00:23:36 IST" name="setup" finished-at="2021-10-22T00:23:36 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ClearShoppingCart@4b8d604b]" started-at="2021-10-30T18:50:57 IST" name="setup" finished-at="2021-10-30T18:50:57 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ClearAddToCartAndGoToBooks()[pri:0, instance:testcases.ClearShoppingCart@4b8d604b]" started-at="2021-10-22T00:23:36 IST" name="ClearAddToCartAndGoToBooks" finished-at="2021-10-22T00:23:40 IST" duration-ms="4004" status="PASS">
+        <test-method signature="ClearAddToCartAndGoToBooks()[pri:0, instance:testcases.ClearShoppingCart@4b8d604b]" started-at="2021-10-30T18:50:57 IST" name="ClearAddToCartAndGoToBooks" finished-at="2021-10-30T18:51:02 IST" duration-ms="4329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClearAddToCartAndGoToBooks -->
       </class> <!-- testcases.ClearShoppingCart -->
     </test> <!-- clearshoppingcart -->
-    <test started-at="2021-10-22T00:23:40 IST" name="books" finished-at="2021-10-22T00:24:03 IST" duration-ms="22255">
+    <test started-at="2021-10-30T18:51:02 IST" name="books" finished-at="2021-10-30T18:51:29 IST" duration-ms="27315">
       <class name="testcases.Checkout">
-        <test-method signature="excelR(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Checkout@6b09fb41]" started-at="2021-10-22T00:23:55 IST" name="excelR" data-provider="LoginData1" finished-at="2021-10-22T00:23:57 IST" duration-ms="1615" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Checkout@6b09fb41]" started-at="2021-10-30T18:51:21 IST" name="setup" finished-at="2021-10-30T18:51:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="excelR(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Checkout@6b09fb41]" started-at="2021-10-30T18:51:21 IST" name="excelR" data-provider="LoginData1" finished-at="2021-10-30T18:51:23 IST" duration-ms="2047" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,156 +89,152 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- excelR -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Checkout@6b09fb41]" started-at="2021-10-22T00:23:55 IST" name="setup" finished-at="2021-10-22T00:23:55 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Checkout@6b09fb41]" started-at="2021-10-30T18:51:23 IST" name="setup" finished-at="2021-10-30T18:51:23 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Checkout@6b09fb41]" started-at="2021-10-22T00:23:57 IST" name="setup" finished-at="2021-10-22T00:23:57 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="BillingAddress()[pri:1, instance:testcases.Checkout@6b09fb41]" started-at="2021-10-22T00:23:57 IST" name="BillingAddress" finished-at="2021-10-22T00:23:57 IST" duration-ms="79" status="PASS">
+        <test-method signature="BillingAddress()[pri:1, instance:testcases.Checkout@6b09fb41]" started-at="2021-10-30T18:51:23 IST" name="BillingAddress" finished-at="2021-10-30T18:51:23 IST" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BillingAddress -->
       </class> <!-- testcases.Checkout -->
       <class name="testcases.ShippingMethod">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ShippingMethod@3932c79a]" started-at="2021-10-22T00:23:58 IST" name="setup" finished-at="2021-10-22T00:23:58 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="ShippingMethodNextDayAir()[pri:0, instance:testcases.ShippingMethod@3932c79a]" started-at="2021-10-22T00:23:58 IST" name="ShippingMethodNextDayAir" finished-at="2021-10-22T00:23:58 IST" duration-ms="541" status="PASS">
+        <test-method signature="ShippingMethodNextDayAir()[pri:0, instance:testcases.ShippingMethod@3932c79a]" started-at="2021-10-30T18:51:24 IST" name="ShippingMethodNextDayAir" finished-at="2021-10-30T18:51:25 IST" duration-ms="712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShippingMethodNextDayAir -->
-      </class> <!-- testcases.ShippingMethod -->
-      <class name="testcases.ConfrmOrder">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ConfrmOrder@34bde49d]" started-at="2021-10-22T00:23:59 IST" name="setup" finished-at="2021-10-22T00:23:59 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ShippingMethod@3932c79a]" started-at="2021-10-30T18:51:24 IST" name="setup" finished-at="2021-10-30T18:51:24 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="confirmorder()[pri:0, instance:testcases.ConfrmOrder@34bde49d]" started-at="2021-10-22T00:23:59 IST" name="confirmorder" finished-at="2021-10-22T00:24:02 IST" duration-ms="2389" status="PASS">
+      </class> <!-- testcases.ShippingMethod -->
+      <class name="testcases.ConfrmOrder">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ConfrmOrder@34bde49d]" started-at="2021-10-30T18:51:26 IST" name="setup" finished-at="2021-10-30T18:51:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="confirmorder()[pri:0, instance:testcases.ConfrmOrder@34bde49d]" started-at="2021-10-30T18:51:26 IST" name="confirmorder" finished-at="2021-10-30T18:51:28 IST" duration-ms="2437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- confirmorder -->
       </class> <!-- testcases.ConfrmOrder -->
       <class name="testcases.ShippingAddress">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ShippingAddress@624ea235]" started-at="2021-10-22T00:23:57 IST" name="setup" finished-at="2021-10-22T00:23:57 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ShippingAddress@624ea235]" started-at="2021-10-30T18:51:23 IST" name="setup" finished-at="2021-10-30T18:51:23 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="shippingAddress()[pri:1, instance:testcases.ShippingAddress@624ea235]" started-at="2021-10-22T00:23:57 IST" name="shippingAddress" finished-at="2021-10-22T00:23:58 IST" duration-ms="1088" status="PASS">
+        <test-method signature="shippingAddress()[pri:1, instance:testcases.ShippingAddress@624ea235]" started-at="2021-10-30T18:51:23 IST" name="shippingAddress" finished-at="2021-10-30T18:51:24 IST" duration-ms="1036" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shippingAddress -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ShippingAddress@624ea235]" started-at="2021-10-22T00:23:58 IST" name="setup" finished-at="2021-10-22T00:23:58 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ShippingAddress@624ea235]" started-at="2021-10-30T18:51:24 IST" name="setup" finished-at="2021-10-30T18:51:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="shippingaddress()[pri:2, instance:testcases.ShippingAddress@624ea235]" started-at="2021-10-22T00:23:58 IST" name="shippingaddress" finished-at="2021-10-22T00:23:58 IST" duration-ms="92" status="PASS">
+        <test-method signature="shippingaddress()[pri:2, instance:testcases.ShippingAddress@624ea235]" started-at="2021-10-30T18:51:24 IST" name="shippingaddress" finished-at="2021-10-30T18:51:24 IST" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shippingaddress -->
       </class> <!-- testcases.ShippingAddress -->
       <class name="testcases.PaymentInfo">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.PaymentInfo@23f5b5dc]" started-at="2021-10-22T00:23:59 IST" name="setup" finished-at="2021-10-22T00:23:59 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.PaymentInfo@23f5b5dc]" started-at="2021-10-30T18:51:25 IST" name="setup" finished-at="2021-10-30T18:51:25 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="paymentinfo()[pri:0, instance:testcases.PaymentInfo@23f5b5dc]" started-at="2021-10-22T00:23:59 IST" name="paymentinfo" finished-at="2021-10-22T00:23:59 IST" duration-ms="350" status="PASS">
+        <test-method signature="paymentinfo()[pri:0, instance:testcases.PaymentInfo@23f5b5dc]" started-at="2021-10-30T18:51:25 IST" name="paymentinfo" finished-at="2021-10-30T18:51:26 IST" duration-ms="383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- paymentinfo -->
       </class> <!-- testcases.PaymentInfo -->
       <class name="testcases.GoToCart">
-        <test-method signature="MoveToShippingCartAndClick()[pri:1, instance:testcases.GoToCart@97e93f1]" started-at="2021-10-22T00:23:45 IST" name="MoveToShippingCartAndClick" finished-at="2021-10-22T00:23:49 IST" duration-ms="3079" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.GoToCart@97e93f1]" started-at="2021-10-30T18:51:07 IST" name="setup" finished-at="2021-10-30T18:51:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="MoveToShippingCartAndClick()[pri:1, instance:testcases.GoToCart@97e93f1]" started-at="2021-10-30T18:51:07 IST" name="MoveToShippingCartAndClick" finished-at="2021-10-30T18:51:11 IST" duration-ms="3256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MoveToShippingCartAndClick -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.GoToCart@97e93f1]" started-at="2021-10-22T00:23:45 IST" name="setup" finished-at="2021-10-22T00:23:45 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
       </class> <!-- testcases.GoToCart -->
       <class name="testcases.PaymentMethod">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.PaymentMethod@782859e]" started-at="2021-10-22T00:23:58 IST" name="setup" finished-at="2021-10-22T00:23:58 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.PaymentMethod@782859e]" started-at="2021-10-30T18:51:25 IST" name="setup" finished-at="2021-10-30T18:51:25 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="paymentmethod()[pri:0, instance:testcases.PaymentMethod@782859e]" started-at="2021-10-22T00:23:58 IST" name="paymentmethod" finished-at="2021-10-22T00:23:59 IST" duration-ms="501" status="PASS">
+        <test-method signature="paymentmethod()[pri:0, instance:testcases.PaymentMethod@782859e]" started-at="2021-10-30T18:51:25 IST" name="paymentmethod" finished-at="2021-10-30T18:51:25 IST" duration-ms="554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- paymentmethod -->
       </class> <!-- testcases.PaymentMethod -->
-      <class name="testcases.CheckoutBillingAddress">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CheckoutBillingAddress@5a5a729f]" started-at="2021-10-22T00:23:49 IST" name="setup" finished-at="2021-10-22T00:23:49 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="checkout()[pri:1, instance:testcases.CheckoutBillingAddress@5a5a729f]" started-at="2021-10-22T00:23:49 IST" name="checkout" finished-at="2021-10-22T00:23:52 IST" duration-ms="3860" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkout -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CheckoutBillingAddress@5a5a729f]" started-at="2021-10-22T00:23:52 IST" name="setup" finished-at="2021-10-22T00:23:52 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="BillingAddressdropdown()[pri:2, instance:testcases.CheckoutBillingAddress@5a5a729f]" started-at="2021-10-22T00:23:52 IST" name="BillingAddressdropdown" finished-at="2021-10-22T00:23:53 IST" duration-ms="177" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BillingAddressdropdown -->
-      </class> <!-- testcases.CheckoutBillingAddress -->
       <class name="testcases.SuccessfullyProcessed">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.SuccessfullyProcessed@1b1cfb87]" started-at="2021-10-22T00:24:02 IST" name="setup" finished-at="2021-10-22T00:24:02 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.SuccessfullyProcessed@1b1cfb87]" started-at="2021-10-30T18:51:28 IST" name="setup" finished-at="2021-10-30T18:51:28 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="successfullprocessed()[pri:0, instance:testcases.SuccessfullyProcessed@1b1cfb87]" started-at="2021-10-22T00:24:02 IST" name="successfullprocessed" finished-at="2021-10-22T00:24:02 IST" duration-ms="747" status="PASS">
+        <test-method signature="successfullprocessed()[pri:0, instance:testcases.SuccessfullyProcessed@1b1cfb87]" started-at="2021-10-30T18:51:28 IST" name="successfullprocessed" finished-at="2021-10-30T18:51:29 IST" duration-ms="950" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- successfullprocessed -->
       </class> <!-- testcases.SuccessfullyProcessed -->
-      <class name="testcases.Books">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Books@aba625]" started-at="2021-10-22T00:23:40 IST" name="setup" finished-at="2021-10-22T00:23:40 IST" duration-ms="0" status="PASS">
+      <class name="testcases.CheckoutBillingAddress">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CheckoutBillingAddress@5a5a729f]" started-at="2021-10-30T18:51:11 IST" name="setup" finished-at="2021-10-30T18:51:11 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SelectBooksAddtocart()[pri:0, instance:testcases.Books@aba625]" started-at="2021-10-22T00:23:40 IST" name="SelectBooksAddtocart" finished-at="2021-10-22T00:23:45 IST" duration-ms="5211" status="PASS">
+        <test-method signature="checkout()[pri:1, instance:testcases.CheckoutBillingAddress@5a5a729f]" started-at="2021-10-30T18:51:11 IST" name="checkout" finished-at="2021-10-30T18:51:15 IST" duration-ms="3867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CheckoutBillingAddress@5a5a729f]" started-at="2021-10-30T18:51:15 IST" name="setup" finished-at="2021-10-30T18:51:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="BillingAddressdropdown()[pri:2, instance:testcases.CheckoutBillingAddress@5a5a729f]" started-at="2021-10-30T18:51:15 IST" name="BillingAddressdropdown" finished-at="2021-10-30T18:51:15 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingAddressdropdown -->
+      </class> <!-- testcases.CheckoutBillingAddress -->
+      <class name="testcases.Books">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Books@aba625]" started-at="2021-10-30T18:51:02 IST" name="setup" finished-at="2021-10-30T18:51:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SelectBooksAddtocart()[pri:0, instance:testcases.Books@aba625]" started-at="2021-10-30T18:51:02 IST" name="SelectBooksAddtocart" finished-at="2021-10-30T18:51:07 IST" duration-ms="5722" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectBooksAddtocart -->
       </class> <!-- testcases.Books -->
     </test> <!-- books -->
-    <test started-at="2021-10-22T00:24:03 IST" name="logout" finished-at="2021-10-22T00:24:03 IST" duration-ms="958">
+    <test started-at="2021-10-30T18:51:29 IST" name="logout" finished-at="2021-10-30T18:51:30 IST" duration-ms="1085">
       <class name="testcases.Logout">
-        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:testcases.Logout@6f15d60e]" started-at="2021-10-22T00:23:23 IST" name="BeforeSuite" finished-at="2021-10-22T00:23:24 IST" duration-ms="267" status="PASS">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:testcases.Logout@6f15d60e]" started-at="2021-10-30T18:50:28 IST" name="BeforeSuite" finished-at="2021-10-30T18:50:28 IST" duration-ms="407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
-        <test-method signature="logout()[pri:0, instance:testcases.Logout@6f15d60e]" started-at="2021-10-22T00:24:03 IST" name="logout" finished-at="2021-10-22T00:24:03 IST" duration-ms="953" status="PASS">
+        <test-method signature="logout()[pri:0, instance:testcases.Logout@6f15d60e]" started-at="2021-10-30T18:51:29 IST" name="logout" finished-at="2021-10-30T18:51:30 IST" duration-ms="1081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Logout@6f15d60e]" started-at="2021-10-22T00:24:03 IST" name="setup" finished-at="2021-10-22T00:24:03 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Logout@6f15d60e]" started-at="2021-10-30T18:51:29 IST" name="setup" finished-at="2021-10-30T18:51:29 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:testcases.Logout@6f15d60e]" started-at="2021-10-22T00:24:04 IST" name="AfterSuite" finished-at="2021-10-22T00:24:04 IST" duration-ms="921" status="PASS">
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:testcases.Logout@6f15d60e]" started-at="2021-10-30T18:51:30 IST" name="AfterSuite" finished-at="2021-10-30T18:51:32 IST" duration-ms="1787" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterSuite -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Logout@6f15d60e]" started-at="2021-10-22T00:24:04 IST" name="tearDown" finished-at="2021-10-22T00:24:05 IST" duration-ms="845" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Logout@6f15d60e]" started-at="2021-10-30T18:51:32 IST" name="tearDown" finished-at="2021-10-30T18:51:34 IST" duration-ms="1590" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-JP7AAGV', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+System info: host: 'DESKTOP-PJJDTV0', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-JP7AAGV', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+System info: host: 'DESKTOP-PJJDTV0', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: driver.version: RemoteWebDriver
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)

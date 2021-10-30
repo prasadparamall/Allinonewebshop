@@ -55,14 +55,12 @@ import utilities.ExtentManager;
 
 		@Override
 		public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-			// TODO Auto-generated method stub
-			ITestListener.super.onTestFailedButWithinSuccessPercentage(result);
+			
 		}
 
 		@Override
 		public void onTestFailedWithTimeout(ITestResult result) {
-			// TODO Auto-generated method stub
-			ITestListener.super.onTestFailedWithTimeout(result);
+			
 		}
 
 		
